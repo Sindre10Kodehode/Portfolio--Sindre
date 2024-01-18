@@ -8,7 +8,7 @@ export const About = () => {
         className="flex flex-row items-center justify-center h-screen m-16 mt-52"
       >
         <img
-          src="/public/FB_IMG_1664373918992.jpg"
+          src="/FB_IMG_1664373918992.jpg"
           className="z-0 h-[700px] rounded-lg"
         />
         <div className=" w-[500px] p-4 font-Lato">
