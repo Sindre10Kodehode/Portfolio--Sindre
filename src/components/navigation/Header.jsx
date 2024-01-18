@@ -1,9 +1,9 @@
 export const Header = () => {
   return (
-    <header className="fixed z-10 flex justify-around w-full select-none h-28 font-Lato">
+    <header className="fixed z-50 flex justify-around w-full select-none h-28 font-Lato">
       <img
         src="/wavesOpacity.svg"
-        className="absolute w-full pointer-events-none -z-10"
+        className="absolute w-full pointer-events-none"
       />
       <nav className="absolute flex justify-between m-4 text-xl mt-7 w-80 right-64">
         <a href="#hero" className=" hover:scale-110">

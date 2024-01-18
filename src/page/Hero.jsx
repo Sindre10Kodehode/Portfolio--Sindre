@@ -12,7 +12,7 @@ export const Hero = () => {
           <h1 className="text-4xl">Kunstner</h1>
         </div>
       </div>
-      <div className="absolute flex-row flex left-[720px] top-[500px]">
+      <div className="absolute flex-row flex left-[715px] top-[500px]">
         <a
           target="_blank"
           className="p-2 hover:scale-110"

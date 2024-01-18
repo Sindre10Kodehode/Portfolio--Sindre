@@ -2,7 +2,7 @@ import { IconCard } from "./iconCard";
 
 export const Knowledge = () => {
   return (
-    <section className="flex justify-center pt-2 place-items-center bg-[#28536B] p-24 rounded-bl-[50%] rounded-br-[50%] rounded-[15%]">
+    <section className="flex justify-center pt-2 place-items-center bg-[#28536B] p-20 rounded-bl-[50%] rounded-br-[50%] rounded-[15%]">
       <IconCard src="/html-5.png" name="HTML" />
       <IconCard src="/css-3.png" name="CSS" />
       <IconCard src="/javascript.png" name="Javascript" />
