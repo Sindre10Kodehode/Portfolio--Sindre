@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <section className="w-full h-[120vh] flex text-[#E2C4F6] flex-col bg-[url(/src/assets/newlow-poly-grid-haikei.svg)]">
+    <section className="w-full h-[120vh] flex text-[#E2C4F6] flex-col bg-[url(/newlow-poly-grid-haikei.svg)]">
       <img src="/wave-haikei.svg" className="absolute z-10 w-screen" />
 
       <section
