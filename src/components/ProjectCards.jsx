@@ -1,6 +1,6 @@
 export const ProjectCard = ({ href, title, desc, link }) => {
   return (
-    <div className="w-[500px] border-8 border-[#300449] h-[400px] rounded-[50px] flex-col bg-[#300449] relative item-center flex m-8 text-[#E2C4F6] text-center overflow-hidden font-Poppins">
+    <div className="w-[500px] border-8 border-[#160022] h-[400px] rounded-[50px] flex-col bg-[#160022] relative item-center flex m-8 text-[#E2C4F6] text-center overflow-hidden transition hover:scale-105 font-Poppins">
       <div className="w-full h-[180px] bg-white">
         <img
           src={href}
@@ -11,7 +11,7 @@ export const ProjectCard = ({ href, title, desc, link }) => {
       <p>{desc}</p>
       <a
         target="_blank"
-        className="absolute bottom-2 left-2 h-14 w-14"
+        className="absolute transition bottom-2 hover:scale-110 left-2 h-14 w-14"
         href={link}
       >
         <img

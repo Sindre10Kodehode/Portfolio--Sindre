@@ -15,7 +15,7 @@ export const Hero = () => {
       <div className="absolute flex-row flex left-[715px] top-[500px]">
         <a
           target="_blank"
-          className="p-2 hover:scale-110"
+          className="p-2 transition hover:scale-110"
           href="https://www.linkedin.com/in/sindre-giske-7a21a62ab/"
         >
           <img
@@ -25,7 +25,7 @@ export const Hero = () => {
         </a>
         <a
           target="_blank"
-          className="p-2 hover:scale-110"
+          className="p-2 transition hover:scale-110"
           href="https://github.com/Sindre10Kodehode"
         >
           <img

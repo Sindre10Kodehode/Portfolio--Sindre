@@ -6,16 +6,16 @@ export const Header = () => {
         className="absolute w-full pointer-events-none"
       />
       <nav className="absolute flex justify-between m-4 text-xl mt-7 w-80 right-64">
-        <a href="#hero" className=" hover:scale-110">
+        <a href="#hero" className="transition hover:scale-110">
           Home
         </a>
-        <a href="#about" className=" hover:scale-110">
+        <a href="#about" className="transition hover:scale-110">
           About
         </a>
-        <a href="#projects" className=" hover:scale-110">
+        <a href="#projects" className="transition hover:scale-110">
           Projects
         </a>
-        <a href="#contact" className=" hover:scale-110">
+        <a href="#contact" className="transition hover:scale-110">
           Contact
         </a>
       </nav>
