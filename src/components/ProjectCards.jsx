@@ -34,7 +34,7 @@ export const ProjectCards = () => {
         link="https://github.com/Saikuura/Pokedex/tree/main"
       />
       <ProjectCard
-        href="/public/ReactDemo.png"
+        href="/ReactDemo.png"
         title="React/API demo"
         desc="For å vise mine ferdigheter innenfor basic frontEnd koding, og for å forbedre meg i React lagde jeg denne siden. Landingssiden er brukt til å forklare hvordan siden er laget, og samme som denne siden har jeg brukt 100% tailwind til styling."
         link="https://github.com/Sindre10Kodehode/React_Routing"

@@ -15,7 +15,7 @@ export const About = () => {
         />
       <AboutMe/>
       </section>
-      <img src="/public/aboutend.svg" className=""/>
+      <img src="/aboutend.svg" className=""/>
     </section>
   );
 };
