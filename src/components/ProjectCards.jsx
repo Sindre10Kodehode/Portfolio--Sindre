@@ -11,7 +11,7 @@ export const ProjectCard = ({ href, title, desc, link }) => {
       <p>{desc}</p>
       <a
         target="_blank"
-        className="absolute transition bottom-2 hover:scale-110 left-2 h-14 w-14"
+        className="absolute w-12 h-12 transition bottom-2 hover:scale-110 left-2"
         href={link}
       >
         <img
@@ -36,7 +36,7 @@ export const ProjectCards = () => {
       <ProjectCard
         href="/public/ReactDemo.png"
         title="React/API demo"
-        desc="For å vise mine ferdigheter innenfor koding, og for å forbedre meg i React lagde jeg denne siden. Landingssiden er brukt til å forklare hvordan siden er laget, og samme som denne siden har jeg brukt 100% tailwind til styling."
+        desc="For å vise mine ferdigheter innenfor basic frontEnd koding, og for å forbedre meg i React lagde jeg denne siden. Landingssiden er brukt til å forklare hvordan siden er laget, og samme som denne siden har jeg brukt 100% tailwind til styling."
         link="https://github.com/Sindre10Kodehode/React_Routing"
       />
     </div>
