@@ -26,7 +26,7 @@ export const ProjectCard = ({ href, title, desc, link }) => {
 
 export const ProjectCards = () => {
   return (
-    <div className="flex flex-wrap p-10">
+    <section className="flex flex-wrap p-10">
       <ProjectCard
         href="/pokedeximg.png"
         title="Pokedex"
@@ -39,7 +39,13 @@ export const ProjectCards = () => {
         desc="For å vise mine ferdigheter innenfor basic frontEnd koding, og for å forbedre meg i React lagde jeg denne siden. Landingssiden er brukt til å forklare hvordan siden er laget, og samme som denne siden har jeg brukt 100% tailwind til styling."
         link="https://github.com/Sindre10Kodehode/React_Routing"
       />
-    </div>
+      <ProjectCard 
+      href="/getShrekd.png" 
+      title="Rock, Paper, Shrek" 
+      desc="Jeg lagde ett Stein, Saks, Papir spill hvor Shrek er din motstander. Prosjektet er laget i React, hovedsakelig med vanilla Javascript, men med noen React syntaks utvidelser som useStates. Lyst til å prøve? Trykk på linken nede i hjørnet!"
+      link="https://jazzy-frangipane-12e78c.netlify.app/" 
+      />
+    </section>
   );
 };
 

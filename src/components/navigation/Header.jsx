@@ -1,6 +1,6 @@
 export const Header = () => {
   return (
-    <header className="fixed z-50 flex justify-around w-full select-none h-28 font-Lato">
+    <header className="fixed z-40 flex justify-around w-full select-none h-28 font-Lato">
       <img
         src="/wavesOpacity.svg"
         className="absolute w-full pointer-events-none"
