@@ -5,3 +5,9 @@
 * {
     scroll-behavior: smooth;
 }
+
+/* @media (min-width: 768px) {
+    nav {
+        right: 16rem
+    }
+} */

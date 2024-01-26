@@ -5,7 +5,7 @@ export const Header = () => {
         src="/wavesOpacity.svg"
         className="absolute w-full pointer-events-none"
       />
-      <nav className="absolute flex justify-between m-4 text-xl mt-7 w-80 right-64">
+      <nav className="absolute flex justify-between m-4 text-xl mt-7 w-80 md:right-64">
         <a href="#hero" className="transition hover:scale-110">
           Home
         </a>
