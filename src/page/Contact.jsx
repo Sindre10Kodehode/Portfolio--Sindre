@@ -1,10 +1,10 @@
 export const Contact = () => {
     const Pstyle = ({ children }) => {
-        return <p className="p-2 text-2xl">{children}</p>;
+        return <p className="p-2 text-l md:text-2xl">{children}</p>;
       };
 
     return (
-        <section id="contact" className="h-[40vh] flex flex-row justify-center items-center font-Lato bg-[#160022] text-[#E2C4F6]">
+        <section id="contact" className="h-[25vh] flex flex-row justify-center items-center font-Lato bg-[#160022] text-[#E2C4F6]">
             <div className="p-2 text-end">
             <Pstyle>Navn</Pstyle>
             <Pstyle>Epost</Pstyle>
