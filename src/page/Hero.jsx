@@ -4,7 +4,7 @@ export const Hero = () => {
       id="hero"
       className="bg-[url(/blob-scene-haikei.svg)] bg-no-repeat bg-cover z-50 w-full h-screen flex place-content-center justify-around items-center text-gray-300 font-Poppins flex-col md:flex-row"
     >
-      <div className="relative select-none text-start">
+      <div className="relative mt-12 select-none text-start">
         <h1 className="m-8 text-7xl">Sindre Tofte Giske</h1>
         <div className="m-8">
           <h1 className="text-4xl">Koder</h1>
@@ -12,7 +12,7 @@ export const Hero = () => {
           <h1 className="text-4xl">Kunstner</h1>
         </div>
       
-      <div className="absolute bottom-0 flex flex-row right-12">
+      <div className="absolute bottom-0 flex flex-col top-64 md:flex-row right-12">
         <a
           target="_blank"
           className="p-2 transition hover:scale-110"
