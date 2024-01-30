@@ -15,7 +15,7 @@ export const About = () => {
         />
         <AboutMe />
       </section>
-      <img src="/aboutend.svg" className="absolute bottom-0 w-screen" />
+      <img src="/aboutend.svg" className="absolute bottom-0 w-screen h-12" />
     </section>
   );
 };
