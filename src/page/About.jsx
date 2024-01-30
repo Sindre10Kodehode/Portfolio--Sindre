@@ -8,7 +8,7 @@ export const About = () => {
     >
       <img src="/wave-haikei.svg" className="absolute z-0 w-screen" />
 
-      <section className="flex flex-col items-center justify-center h-screen m-4 md:flex-row md:m-16">
+      <section className="flex flex-col items-center justify-center h-screen m-4 mt-24 md:flex-row md:m-16">
         <img
           src="/FB_IMG_1664373918992.jpg"
           className="z-0 h-[400px] md:h-[700px] rounded-lg"
