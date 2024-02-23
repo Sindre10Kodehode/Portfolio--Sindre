@@ -1,5 +1,5 @@
 import { HeroLinks } from "../components/HeroLinks";
-import './herocss.css'
+import './heroAnimations.css'
 
 export const Hero = () => {
   return (

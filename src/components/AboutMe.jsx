@@ -1,9 +1,9 @@
-export const AboutMe = () => {
+export const AboutMe = ({className}) => {
   const Pstyle = ({ children }) => {
     return <p className="p-2 text-base md:text-2xl">{children}</p>;
   };
   return (
-    <div className=" md:w-[500px] p-4 font-Lato">
+    <div className={`${className} md:w-[500px] p-4 font-Lato`}>
       <h1 className="p-2 text-4xl">Hvem er jeg?</h1>
       <Pstyle>
         Hele livet mitt har jeg vært fascinert og forelsket i Vitenskap og

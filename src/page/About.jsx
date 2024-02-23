@@ -1,4 +1,5 @@
 import { AboutMe } from "../components/AboutMe";
+import './aboutAnimations.css'
 
 export const About = () => {
   return (
@@ -11,9 +12,9 @@ export const About = () => {
       <section className="flex flex-col items-center justify-center w-screen h-screen m-4 mt-24 md:flex-row md:m-16">
         <img
           src="/FB_IMG_1664373918992.jpg"
-          className="z-0 h-[400px] md:h-[700px] rounded-lg"
+          className="z-0 h-[400px] md:h-[700px] rounded-lg aboutImg"
         />
-        <AboutMe />
+        <AboutMe className="aboutTxt"/>
       </section>
       <img src="/aboutend.svg" className="absolute bottom-0 w-screen h-12" />
     </section>
