@@ -1,6 +1,6 @@
-export const HeroLinks = () => {
+export const HeroLinks = ({className}) => {
   return (
-    <div className="absolute bottom-0 flex flex-col top-64 md:top-40 md:flex-row right-12">
+    <div className={`absolute bottom-0 flex flex-col top-64 md:top-40 md:flex-row right-12 ${className}`}>
       <a
         target="_blank"
         className="p-2 transition hover:scale-110"
