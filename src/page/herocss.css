@@ -8,10 +8,15 @@
     100% {transform:translateX(0%)}
 }
 
-.heroStartKeywords {
+/* .heroStartKeywords {
     animation: heroTextKw 3s ease forwards;
     overflow: hidden;
-}
+} */
+
+.heroStartKeywordBox:nth-of-type(1) h1 {
+    animation: heroTextKw 3s ease forwards;
+     transition-delay: 2s;
+   }
 
 @keyframes heroTextKw {
     0% {transform:translateX(-100%)}

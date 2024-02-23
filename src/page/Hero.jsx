@@ -9,10 +9,10 @@ export const Hero = () => {
     >
       <div className="relative mt-12 select-none text-start">
         <h1 className="m-8 heroStartName text-7xl">Sindre Tofte Giske</h1>
-        <div className="m-8 heroStartKeywords">
-          <h1 className="text-4xl">Koder</h1>
-          <h1 className="text-4xl">Musiker</h1>
-          <h1 className="text-4xl">Kunstner</h1>
+        <div className="m-8 heroStartKeywordBox">
+          <h1 className="text-4xl heroStartKeywords">Koder</h1>
+          <h1 className="text-4xl heroStartKeywords">Musiker</h1>
+          <h1 className="text-4xl heroStartKeywords">Kunstner</h1>
         </div>
       <HeroLinks className="heroLinks"/>
       </div>
