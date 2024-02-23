@@ -1,5 +1,5 @@
 .heroStartName {
-    animation: heroTextNm 3s ease forwards;
+    animation: heroTextNm 2s ease forwards;
     overflow: hidden;
 }
 
@@ -8,30 +8,53 @@
     100% {transform:translateX(0%)}
 }
 
-/* .heroStartKeywords {
-    animation: heroTextKw 3s ease forwards;
-    overflow: hidden;
-} */
-
-.heroStartKeywordBox:nth-of-type(1) h1 {
-    animation: heroTextKw 3s ease forwards;
-     transition-delay: 2s;
-   }
 
 @keyframes heroTextKw {
     0% {transform:translateX(-100%)}
+    75% {transform:translateX(-100%)}
     100% {transform:translateX(0%)}
 }
 
+.heroStartKeyword1 {
+    animation: heroTextKw 3000ms ease forwards;
+}
+
+.heroStartKeyword2 {
+    animation: heroTextKw 4000ms ease forwards;
+}
+
+.heroStartKeyword3 {
+    animation: heroTextKw 5000ms ease forwards;
+}
+
 .heroLinks {
-    animation: scale 3s ease forwards;
+    animation: scale 4s ease forwards;
+    transform-origin: 50% 50%;
 }
 
 @keyframes scale {
-    from {
+    0% {
         transform: scale(0%);
     }
-    to {
+    50% {
+        transform: scale(0%);
+    }
+    100% {
         transform: scale(100%);
+    }
+}
+
+.myImg {
+    animation: myImgAnimation 3s ease forwards;
+}
+
+@keyframes myImgAnimation {
+    from {
+        scale: 0%;
+        rotate: -45deg;
+    }
+    to {
+        scale: 100%;
+        rotate: 0deg;
     }
 }

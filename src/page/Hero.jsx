@@ -10,15 +10,15 @@ export const Hero = () => {
       <div className="relative mt-12 select-none text-start">
         <h1 className="m-8 heroStartName text-7xl">Sindre Tofte Giske</h1>
         <div className="m-8 heroStartKeywordBox">
-          <h1 className="text-4xl heroStartKeywords">Koder</h1>
-          <h1 className="text-4xl heroStartKeywords">Musiker</h1>
-          <h1 className="text-4xl heroStartKeywords">Kunstner</h1>
+          <h1 className="text-4xl heroStartKeyword1">Koder</h1>
+          <h1 className="text-4xl heroStartKeyword2">Musiker</h1>
+          <h1 className="text-4xl heroStartKeyword3">Kunstner</h1>
         </div>
       <HeroLinks className="heroLinks"/>
       </div>
       <img
         src="/imgme.jpg"
-        className="rounded-tr-[40%] rounded-tl-[50%] rounded-br-[50%] rounded-bl-[20%] w-80 md:w-96 border-spacing-6 pointer-events-none select-none"
+        className="rounded-tr-[40%] rounded-tl-[50%] rounded-br-[50%] rounded-bl-[20%] w-80 md:w-96 border-spacing-6 pointer-events-none select-none myImg"
       />
       <img
         src="/waveHeroBot.svg"
