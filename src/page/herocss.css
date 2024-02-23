@@ -1,0 +1,10 @@
+.heroStart {
+    animation: heroText 5s ease forward;
+}
+
+@keyframes heroText {
+    0% {transform:translateX(-100%)}
+    70% {transform:translateX(105%)}
+    100% {transform:translateX(-5%)}
+}
+
